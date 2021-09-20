@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: white;
+}
+header, footer {
+    text-align: center;
+}
+ol, ul {
+    padding: 1rem 0 1rem 2rem;
+}
+h1 {
+    padding: 1rem 0;
+    background-color: red;
+    font-size: 2rem;
+    font-weight: bold;
+}
+h2 {
+    font-size: 1.5rem;
+}
+nav {
+    padding: .5rem 0;
+    background-color: orange;
+}
+a {
+    font-size: 1.5rem;
+}
+a:nth-child(n+2) {
+    margin-left: 2rem;
+}
+main {
+    padding: 1rem;
+    background-color: green;
+}
+article:first-child {
+    margin-bottom: .5rem;
+}
+article {
+    padding: 1.5rem;
+    background-color: blue;
+}
+footer {
+    padding: .5rem;
+    background-color: blueviolet;
+    font-size: 2rem;
+}

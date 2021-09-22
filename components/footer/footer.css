@@ -1,16 +1,16 @@
-.footer__about {
+.footer__description-text {
     margin: 0 auto;
 }
-.about {
+.description-text {
     width: 640px;
     text-align: center;
 }
-.about__title {
+.description-text__title {
     margin-bottom: 32px;
     font-size: 38px;
     font-weight: 500;
 }
-.about__description {
+.description-text__body {
     margin-bottom: 136px;
     font-family: 'Inter', sans-serif;
     font-size: 16px;

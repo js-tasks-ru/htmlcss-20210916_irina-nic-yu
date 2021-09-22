@@ -1,4 +1,6 @@
-.header__title {
+.header__heading {
     margin-left: 160px;
+}
+.heading__title {
     font-size: 50px;
 }

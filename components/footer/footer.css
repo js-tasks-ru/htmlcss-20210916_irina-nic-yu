@@ -1,16 +1,14 @@
-.footer__description-text {
+.footer__container {
     margin: 0 auto;
-}
-.description-text {
     width: 640px;
     text-align: center;
 }
-.description-text__title {
+.footer__title {
     margin-bottom: 32px;
     font-size: 38px;
     font-weight: 500;
 }
-.description-text__body {
+.footer__body {
     margin-bottom: 136px;
     font-family: 'Inter', sans-serif;
     font-size: 16px;

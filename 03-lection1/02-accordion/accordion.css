@@ -1,10 +1,4 @@
 /* Стилизация аккордеона */
-.preview__accordion {
-    margin: 0 auto 8px auto;
-}
-.preview__accordion:last-child {
-    margin-bottom: 0;
-}
 .accordion{
     box-sizing: border-box;
     padding: 24px 32px;

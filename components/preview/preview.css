@@ -2,6 +2,12 @@
     flex-grow: 1;
     background-color: #F9FAFC;
 }
+.preview__container {
+    padding: 67px 0 204px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+}
 .preview__card {
-    width: 33.3333%;
+    flex-basis: 350px;
 }

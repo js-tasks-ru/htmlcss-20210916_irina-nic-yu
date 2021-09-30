@@ -1,9 +1,4 @@
-.header-container {
-    max-width: 1120px;
-}
-.header__header-container {
-    margin: 0 160px;
-}
-.heading__title {
+.header__title {
     font-size: 50px;
+    font-weight: 500;
 }

@@ -18,31 +18,32 @@
     height: 100%;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    place-items: center;
+    place-items: stretch;
 }
 .calendar__month-and-year {
     margin-bottom: 24px;
     text-align: center;
     font-family: Inter, sans-serif;
     font-weight: 600;
-    color: #334D6E;
+    color: var(--grey-5);
+}
+.calendar__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .calendar__day {
     font-family: Inter, sans-serif;
     font-size: 14px;
-    color: #90A0B7;
+    color: var(--grey-6);
 }
 .calendar__date {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 16px;
-    color: #334D6E;
+    color: var(--grey-5);
 }
 .calendar__date_selection {
-    place-self: stretch;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #A0B1F5;
+    background-color: var(--light-purple);
 }
 .calendar__date_selection-border {
     background-color: var(--blue);

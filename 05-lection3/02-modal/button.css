@@ -7,6 +7,7 @@
     text-align: center;
     font-weight: 500;
     font-size: 16px;
+    white-space: nowrap;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out, border 200ms ease-in-out;
 }
 .button_primary {
@@ -15,23 +16,6 @@
 }
 .button_primary:hover:enabled {
     background-color: var(--dark-blue);
-    cursor: pointer;
-}
-.button_secondary {
-    background-color: var(--secondary);
-    color: var(--white);
-}
-.button_secondary:hover:enabled {
-    background-color: var(--dark-purple);
-    cursor: pointer;
-}
-.button_alternate {
-    background-color: var(--white);
-    border: solid 1px var(--grey-3);
-    color: var(--black);
-}
-.button_alternate:hover:enabled {
-    border: solid 1px var(--black);
     cursor: pointer;
 }
 .button:disabled {

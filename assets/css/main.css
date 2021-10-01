@@ -21,6 +21,14 @@
     --primary: var(--blue);
     --secondary: var(--purple);
 }
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html, body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
 *,
 *::before,
 *::after {

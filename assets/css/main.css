@@ -10,10 +10,12 @@
     --blue: #4263EB;
     --dark-blue: #2342C0;
     --red: #F03D3E;
+    --orange: #D84910;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --grey-7:  #E5E5E5;
 
     --error: var(--red);
     --success: var(--blue);
@@ -30,11 +32,11 @@
 html, body {
     height: 100%;
 }
-body, h1, h2, p {
+body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
 }
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Inter', sans-serif;
 }
 .container {

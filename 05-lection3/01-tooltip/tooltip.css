@@ -11,7 +11,8 @@
     display: none;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, calc(-150% - 8px));
+    bottom: 100%;
+    transform: translate(-50%, -9px);
     padding: 13px 21px;
     background-color: var(--blue);
     border-radius: 10px;

@@ -1,0 +1,7 @@
+.template-main__container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 56px;
+    padding: 36px 0;
+}

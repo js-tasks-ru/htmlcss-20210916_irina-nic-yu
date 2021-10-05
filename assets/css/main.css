@@ -13,6 +13,7 @@
     --dark-blue: #2342C0;
     --red: #F03D3E;
     --orange: #D84910;
+    --grey-0: #F9FAFC;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
@@ -54,5 +55,23 @@ h1, h2, h3 {
 }
 .container {
     margin: 0 auto;
-    max-width: 1110px;
+    max-width: 345px;
+}
+@media screen and (min-width: 576px) {
+    .container {
+        margin: 0 auto;
+        max-width: 546px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .container {
+        margin: 0 auto;
+        max-width: 962px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .container {
+        margin: 0 auto;
+        max-width: 1110px;
+    }
 }

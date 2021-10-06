@@ -1,4 +1,6 @@
 .template-header {
     height: 82px;
-    background-color: var(--white);
+}
+.header__logo {
+    margin-top: 25px;
 }

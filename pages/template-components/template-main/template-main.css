@@ -1,7 +1,18 @@
+.template-main {
+    background-color: var(--white);
+}
 .template-main__container {
     height: 100%;
     display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 56px;
+    grid-template-columns: 1fr;
     padding: 36px 0;
+}
+@media screen and (min-width: 992px) {
+    .template-main {
+        background-color: transparent;
+    }
+    .template-main__container {
+        grid-template-columns: auto 1fr;
+        gap: 56px;
+    }
 }

@@ -11,6 +11,9 @@
 }
 .card__body {
     flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card__name {
     height: 67px;
@@ -34,9 +37,6 @@
     .card {
         flex-basis: 350px;
         height: 367px;
-    }
-    .card__body {
-
     }
     .card__name {
         justify-content: flex-end;

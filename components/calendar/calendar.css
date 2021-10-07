@@ -49,3 +49,42 @@
     background-color: var(--blue);
     color: var(--white);
 }
+.calendar_preview {
+    width: 164px;
+    padding: 10px;
+    border: none;
+}
+.calendar__wrapper_preview {
+    padding-bottom: 120px;
+}
+.calendar__day_preview {
+    font-size: 8px;
+}
+.calendar__date_preview {
+    font-size: 10px;
+}
+.calendar__month-and-year_preview {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+@media screen and (min-width: 992px) {
+    .calendar_preview {
+        margin-top: 32px;
+        width: 200px;
+        padding: 15px;
+        border: 1px solid var(--grey-3);
+    }
+    .calendar__wrapper_preview {
+        padding-bottom: 100%;
+    }
+    .calendar__day_preview {
+        font-size: 10px;
+    }
+    .calendar__date_preview {
+        font-size: 12px;
+    }
+    .calendar__month-and-year_preview {
+        margin-bottom: 12px;
+        font-size: 14px;
+    }
+}

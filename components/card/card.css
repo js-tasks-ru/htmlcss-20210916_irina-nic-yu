@@ -4,12 +4,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     border-radius: 12px;
     background-color: var(--white);
     box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
 }
 .card__body {
-    height: 164px;
+    flex-grow: 1;
 }
 .card__name {
     height: 67px;
@@ -34,7 +35,11 @@
         flex-basis: 350px;
         height: 367px;
     }
+    .card__body {
+
+    }
     .card__name {
+        justify-content: flex-end;
         margin-bottom: 32px;
     }
     .card__title {

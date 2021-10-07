@@ -3,7 +3,6 @@
     background-color: var(--grey-0);
 }
 .preview__container {
-    max-width: 523px;
     padding: 23px 0 50px;
     display: flex;
     justify-content: center;
@@ -12,7 +11,6 @@
 }
 @media screen and (min-width: 992px) {
     .preview__container {
-        max-width: none;
         gap: 30px;
     }
 }

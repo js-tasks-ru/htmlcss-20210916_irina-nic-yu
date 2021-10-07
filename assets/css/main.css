@@ -57,12 +57,12 @@ h1, h2, h3 {
     margin: 0 auto;
     padding: 0 15px;
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 576px) {
     .container {
-        max-width: 962px;
+        max-width: 546px;
     }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
     .container {
         max-width: 1110px;
     }

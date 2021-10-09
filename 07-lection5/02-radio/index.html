@@ -6,6 +6,26 @@
         <link rel="stylesheet" href="./radio.css">
     </head>
     <body>
+        <svg style="display: none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <svg id="radio-icon">
+                    <rect width="18" height="18" rx="9" fill="#4263EB"/>
+                </svg>
+            </defs>
+        </svg>
 
+        <label class="radio">
+            <input type="radio" name="" class="radio__input">
+            <div class="radio__state">
+                <div class="radio__control">
+                    <svg class="radio__icon">
+                        <use xlink:href="#radio-icon"></use>
+                    </svg>
+                </div>
+                <div class="radio__label">
+                    Label text
+                </div>
+            </div>
+        </label>
     </body>
 </html>

@@ -2,7 +2,7 @@
     display: inline-block;
     position: relative;
 }
-.text-input__container {
+.text-input__field {
     padding: 15px 25px;
     background: var(--white);
     border: 1px solid var(--grey-2);
@@ -11,16 +11,16 @@
     font-size: 20px;
     color: var(--grey-4);
 }
-.text-input__container::placeholder {
+.text-input__field::placeholder {
     color: var(--grey-2);
 }
-.text-input__container::-webkit-input-placeholder {
+.text-input__field::-webkit-input-placeholder {
     color: var(--grey-2);
 }
-.text-input__container::-ms-input-placeholder {
+.text-input__field::-ms-input-placeholder {
     color: var(--grey-2);
 }
-.text-input__container_success {
+.text-input_success .text-input__field{
     border: 1px solid var(--blue);
 }
 .text-input__success-icon {
@@ -32,7 +32,7 @@
     width: 24px;
     height: 24px;
 }
-.text-input__container_invalid {
+.text-input_invalid .text-input__field {
     border: 1px solid var(--red);
 }
 .text-input__invalid-icon {
@@ -45,33 +45,33 @@
     height: 24px;
     color: var(--red);
 }
-.text-input__container:focus {
+.text-input__field:focus {
     outline: none;
     border: 1px solid var(--blue);
 }
-.text-input__container:focus ~ .text-input__invalid-icon {
+.text-input__field:focus ~ .text-input__invalid-icon {
     display: none;
-}.text-input__container:focus ~ .text-input__success-icon {
+}.text-input__field:focus ~ .text-input__success-icon {
     display: none;
 }
-.text-input__container:disabled {
+.text-input__field:disabled {
     outline: none;
     background-image: linear-gradient(135deg, var(--grey-2) 20%, var(--white) 20%, var(--white) 50%, var(--grey-2) 50%, var(--grey-2) 70%, var(--white) 70%, var(--white) 100%);
     background-size: 5px 5px;
 }
-.text-input__container:disabled::placeholder {
+.text-input__field:disabled::placeholder {
     color: transparent;
 }
-.text-input__container:disabled::-webkit-input-placeholder {
+.text-input__field:disabled::-webkit-input-placeholder {
     color: transparent;
 }
-.text-input__container:disabled::-ms-input-placeholder {
+.text-input__field:disabled::-ms-input-placeholder {
     color: transparent;
 }
-.text-input__container_success ~ .text-input__success-icon {
+.text-input_success .text-input__success-icon {
     display: block;
 }
-.text-input__container_invalid ~ .text-input__invalid-icon {
+.text-input_invalid .text-input__invalid-icon {
     display: block;
 }
 

@@ -1,13 +1,16 @@
 .preview {
     flex-grow: 1;
-    background-color: #F9FAFC;
+    background-color: var(--grey-0);
 }
 .preview__container {
-    padding: 67px 0 204px;
+    padding: 23px 0 50px;
     display: flex;
+    justify-content: center;
     flex-flow: row wrap;
-    gap: 30px;
+    gap: 15px;
 }
-.preview__card {
-    flex-basis: 350px;
+@media screen and (min-width: 992px) {
+    .preview__container {
+        gap: 30px;
+    }
 }

@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="./components/footer/footer.css">
         <link rel="stylesheet" href="./components/card/card.css">
         <link rel="stylesheet" href="./components/icons/logo.css">
+        <link rel="stylesheet" href="./components/tabs/tabs.css">
     </head>
     <body>
         <div class="page">
@@ -22,14 +23,50 @@
                     <h1 class="header__title">Reusable component library</h1>
                 </div>
             </header>
-            <main class="preview">
-                <div class="container preview__container">
-                    <div class="card preview__card"></div>
-                    <div class="card preview__card"></div>
-                    <div class="card preview__card"></div>
-                    <div class="card preview__card"></div>
-                    <div class="card preview__card"></div>
-                    <div class="card preview__card"></div>
+            <main class="tabs">
+                <input type="radio" name="components"
+                       class="tabs__input tabs__input_all"
+                       id="#all-tab"
+                       checked>
+                <input type="radio" name="components"
+                       class="tabs__input tabs__input_complex"
+                       id="#complex-tab">
+                <input type="radio" name="components"
+                       class="tabs__input tabs__input_simple"
+                       id="#simple-tab">
+
+                <div class="container tabs__scroller">
+                    <label class="tabs__label tabs__label_all" for="#all-tab">All
+                        components</label>
+                    <label class="tabs__label tabs__complex tabs__label_complex" for="#complex-tab">Complex</label>
+                    <label class="tabs__label tabs__simple tabs__label_simple" for="#simple-tab">Simple</label>
+                </div>
+
+                <div class="preview">
+                    <div class="tabs__content tabs__content_all">
+                        <div class="container preview__container">
+                            <div class="card preview__card"></div>
+                            <div class="card preview__card"></div>
+                            <div class="card preview__card"></div>
+                            <div class="card preview__card"></div>
+                            <div class="card preview__card"></div>
+                            <div class="card preview__card"></div>
+                        </div>
+                    </div>
+                    <div class="tabs__content tabs__content_complex">
+                        <div class="container preview__container">
+                            <div class="card preview__card"></div>
+                            <div class="card preview__card"></div>
+                        </div>
+                    </div>
+                    <div class="tabs__content tabs__content_simple">
+                        <div class="container preview__container">
+                            <div class="card preview__card"></div>
+                            <div class="card preview__card"></div>
+                            <div class="card preview__card"></div>
+                            <div class="card preview__card"></div>
+                        </div>
+                    </div>
                 </div>
             </main>
             <footer class="footer">

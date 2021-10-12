@@ -67,7 +67,7 @@
     margin-bottom: 10px;
     font-size: 12px;
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
     .calendar_preview {
         margin-top: 32px;
         width: 200px;

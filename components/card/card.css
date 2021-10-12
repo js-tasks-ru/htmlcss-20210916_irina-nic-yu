@@ -1,5 +1,6 @@
 .card {
     flex-basis: 164px;
+    flex-grow: 1;
     height: 231px;
     display: flex;
     flex-direction: column;
@@ -33,9 +34,15 @@
     font-size: 14px;
     color: var(--grey-3);
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 576px) {
+    .card {
+        min-width: 30.33%;
+    }
+}
+@media screen and (min-width: 768px) {
     .card {
         flex-basis: 350px;
+        flex-grow: 0;
         height: 367px;
     }
     .card__name {

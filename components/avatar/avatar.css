@@ -8,7 +8,7 @@
     object-fit: cover;
     border-radius: 50%;
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
     .avatar_preview {
         width: 160px;
         height: 160px;

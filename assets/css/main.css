@@ -56,14 +56,10 @@ h1, h2, h3 {
 .container {
     margin: 0 auto;
     padding: 0 15px;
+    max-width: 1110px;
 }
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 1200px) {
     .container {
-        max-width: 546px;
-    }
-}
-@media screen and (min-width: 992px) {
-    .container {
-        max-width: 1110px;
+        padding: 0;
     }
 }

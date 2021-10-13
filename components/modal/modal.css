@@ -46,9 +46,6 @@
     background-color: var(--white);
     border-radius: unset;
 }
-.modal__close_preview {
-    display: none;
-}
 .modal__form_preview {
     row-gap: 5px;
 }

@@ -1,9 +1,8 @@
-/* Стилизация кнопки */
 .button {
     padding: 15px 65px;
     height: 48px;
-    border: none;
     border-radius: 8px;
+    border: none;
     text-align: center;
     font-weight: 500;
     font-size: 16px;
@@ -37,4 +36,16 @@
 .button:disabled {
     opacity: 50%;
     cursor: not-allowed;
+}
+.button_preview {
+    padding: 5px 35px;
+    height: 25px;
+    border-radius: 4px;
+    font-size: 8px;
+}
+@media screen and (min-width: 768px) {
+    .button_preview {
+        height: 30px;
+        font-size: 10px;
+    }
 }

@@ -1,0 +1,27 @@
+.form-elements {
+    display: flex;
+    column-gap: 35px;
+}
+.form-elements__group {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.form-elements_preview {
+    padding: 0 5px;
+    column-gap: 10px;
+}
+.form-elements__group_preview {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+@media screen and (min-width: 768px) {
+    .form-elements_preview {
+        padding: 0;
+        column-gap: 35px;
+    }
+    .form-elements__group {
+        row-gap: 16px;
+    }
+}

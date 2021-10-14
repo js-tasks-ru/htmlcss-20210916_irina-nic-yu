@@ -1,6 +1,3 @@
-.template-header {
-    background-color: var(--grey-0);
-}
 .template-header__logo {
     margin: 15px auto 40px;
     width: 110px;
@@ -8,9 +5,6 @@
     cursor: pointer;
 }
 @media screen and (min-width: 992px) {
-    .template-header {
-        background-color: transparent;
-    }
     .template-header__logo {
         margin: 25px 0 40px;
     }

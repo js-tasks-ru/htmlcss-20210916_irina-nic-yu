@@ -1,9 +1,10 @@
 .template-component {
     position: relative;
     padding: 32px 48px;
+    min-width: 500px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 .template-component__name {
     margin-bottom: 20px;
@@ -12,9 +13,6 @@
 }
 .template-component__tabs {
     margin-top: 65px;
-}
-.template-component__code {
-    width: 680px;
 }
 .template-component__code-block {
     margin-top: 50px;

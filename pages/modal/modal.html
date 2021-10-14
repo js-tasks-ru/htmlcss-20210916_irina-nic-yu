@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../template-components/template-page/template-page.css">
+    <link rel="stylesheet" href="../template-components/template-header/template-header.css">
+    <link rel="stylesheet" href="../template-components/template-main/template-main.css">
+    <link rel="stylesheet" href="../template-components/template-sidebar/template-sidebar.css">
+    <link rel="stylesheet" href="../template-components/template-component/template-component.css">
+    <link rel="stylesheet" href="../template-components/template-footer/template-footer.css">
+    <link rel="stylesheet" href="../../components/icons/logo.css">
+    <link rel="stylesheet" href="../../components/modal/modal.css">
+    <link rel="stylesheet" href="../../components/button/button.css">
+    <link rel="stylesheet" href="../../components/form-elements/input.css">
+    <link rel="stylesheet" href="../../components/tabs/tabs.css">
+    <link rel="stylesheet" href="../../components/separating-line/separating-line.css">
+</head>
+<body>
+<div class="template-page">
+    <header class="template-header">
+        <div class="container">
+            <div class="template-header__logo">
+                <svg class="logo">
+                    <use xlink:href="../assets/images/icons.svg#logo"></use>
+                </svg>
+            </div>
+        </div>
+    </header>
+    <main class="template-main">
+        <div class="container template-main__container">
+            <div class="template-sidebar">
+                <h3 class="template-sidebar__title">Components</h3>
+                <div class="template-sidebar__menu">
+                    <a href="" class="template-sidebar__item">Modal</a>
+                    <a href="" class="template-sidebar__item">Tooltip</a>
+                    <a href="" class="template-sidebar__item">Avatar</a>
+                    <a href="" class="template-sidebar__item">Calendar</a>
+                    <a href="" class="template-sidebar__item">Histogram</a>
+                    <a href="" class="template-sidebar__item">Custom form elements</a>
+                    <a href="" class="template-sidebar__item">Main page</a>
+                </div>
+            </div>
+            <div class="template-component">
+                <div class="template-component__name">Modal</div>
+                <div class="template-component__body">
+                    <button class="button button_primary" id="modal-open">
+                        Open modal
+                    </button>
+                    <div class="modal" id="modal">
+                        <div class="modal__inner">
+                            <div class="modal__close" id="modal-close">
+                                <svg class="modal-icon">
+                                    <use xlink:href="/assets/images/icons.svg#modal-icon"></use>
+                                </svg>
+                            </div>
+                            <div class="modal__title">Basic CSS-only modal</div>
+                            <form class="modal__form">
+                                <div class="text-input">
+                                    <label class="text-input__label">
+                                        Name
+                                        <input type="text"
+                                               class="text-input__field"
+                                               placeholder="John Johnson">
+                                    </label>
+                                </div>
+                                <div class="text-input">
+                                    <label class="text-input__label text-input__label">
+                                        E-mail
+                                        <input type="text"
+                                               class="text-input__field text-input__field"
+                                               placeholder="email@email.com">
+                                    </label>
+                                </div>
+                                <button type="submit"
+                                        class="button button_primary">
+                                    Submit
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="template-component__code">
+                    <div class="tabs template-component__tabs">
+                        <input type="radio" name="code"
+                               class="tabs__input tabs__input_html"
+                               id="#html-tab" checked>
+                        <input type="radio" name="code"
+                               class="tabs__input tabs__input_css"
+                               id="#css-tab">
+
+                        <div class="tabs__scroller">
+                            <label class="tabs__label tabs__label_html" for="#html-tab">HTML</label>
+                            <label class="tabs__label tabs__complex tabs__label_css" for="#css-tab">CSS</label>
+                        </div>
+
+                        <div class="separating-line separating-line_template"></div>
+
+                        <div class="template-component__code-block">
+                            <div class="tabs__content tabs__content_html">
+                            </div>
+                            <div class="tabs__content tabs__content_css">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="template-footer">
+        <div class="container">
+            <h2 class="template-footer__text">Reusable component library</h2>
+        </div>
+    </footer>
+</div>
+</body>
+<script src="./index.js"></script>
+</html>

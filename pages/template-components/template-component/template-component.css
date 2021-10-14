@@ -1,4 +1,5 @@
 .template-component {
+    position: relative;
     padding: 32px 48px;
     display: flex;
     flex-direction: column;
@@ -8,6 +9,15 @@
     margin-bottom: 20px;
     font-family: Inter, sans-serif;
     font-size: 20px;
+}
+.template-component__tabs {
+    margin-top: 65px;
+}
+.template-component__code {
+    width: 680px;
+}
+.template-component__code-block {
+    margin-top: 50px;
 }
 @media screen and (min-width: 992px) {
     .template-component {

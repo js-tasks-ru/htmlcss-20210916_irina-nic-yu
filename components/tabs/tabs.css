@@ -35,6 +35,14 @@
     color: var(--black);
     border-bottom-color: var(--black);
 }
+.tabs__input_html:checked ~ .tabs__scroller .tabs__label_html {
+    color: var(--black);
+    border-bottom-color: var(--black);
+}
+.tabs__input_css:checked ~ .tabs__scroller .tabs__label_css {
+    color: var(--black);
+    border-bottom-color: var(--black);
+}
 .tabs__content {
     display: none;
 }
@@ -48,5 +56,11 @@
     display: block;
 }
 .tabs__input_template:checked ~ .preview .tabs__content_template {
+    display: block;
+}
+.tabs__input_html:checked ~ .template-component__code-block .tabs__content_html {
+    display: block;
+}
+.tabs__input_css:checked ~ .template-component__code-block .tabs__content_css {
     display: block;
 }
